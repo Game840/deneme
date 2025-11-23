@@ -1,24 +1,50 @@
-.Giriş{
+body {
+    min-height: 100vh; 
+    margin: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+    background-color: #f0f0f0; 
+}
+fieldset {
+    padding: 20px;
+    
+    width: 90%; 
+    max-width: 250px; 
+    
+    margin: 0; 
+    
+    border-radius: 15px;
+    background: antiquewhite;
+    text-align: center;
+
+}
+input {
+    background-color: lightgray;
+    font-size: large;
+    margin-bottom: 10px;
+    width: 100%; 
+    padding: 8px; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.Giriş {
     display: inline-block;
     padding: 10px 15px;
     color:white;
     border-radius: 10px;
     text-decoration:none;
     background: brown;
+    transition: background 0.2s ease;
 }
-input{
-    background-color: lightgray;
-    font-size: large;
-    margin-bottom: 10px;
+
+.Giriş:hover {
+    background: #584141; 
 }
-fieldset {
-    width: 200px;
-    height: 300px;
-    padding: 20px;
-    border-radius: 15px;
-    background: antiquewhite;
-    text-align: center;
-}
+
+/* NOT YAZILARI STİLLERİ */
 .label1{
     font-size: x-large;
     color: red;
@@ -26,11 +52,4 @@ fieldset {
 .label2{
     font-size: large;
     color:blue
-}
-body {
-    min-height: 100vh; 
-    margin: 0; 
-    display: flex;  
-    justify-content: center; 
-    align-items: center; 
 }
