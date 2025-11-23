@@ -1,0 +1,30 @@
+.Giriş{
+    display: inline-block;
+    padding: 10px 15px;
+    color:white;
+    border-radius: 10px;
+    text-decoration:none;
+    background: brown;
+}
+input{
+    background-color: lightgray;
+    font-size: large;
+    margin-bottom: 10px;
+}
+fieldset {
+    width: 200px;
+    height: 300px;
+    margin: 10% 40%;
+    padding: 20px;
+    border-radius: 15px;
+    background: antiquewhite;
+    text-align: center;
+}
+.label1{
+    font-size: x-large;
+    color: red;
+}
+.label2{
+    font-size: large;
+    color:blue
+}
